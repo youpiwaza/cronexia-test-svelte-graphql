@@ -9,6 +9,7 @@
 	<Header />
 
 	<main>
+		<h2>♻️ Je suis dans le layout et sur toutes les pages yay ♻️</h2>
 		{@render children()}
 	</main>
 

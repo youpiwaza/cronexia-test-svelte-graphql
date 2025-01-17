@@ -25,6 +25,17 @@
 		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>
 
+	<h1>Hello and welcome to my site!</h1>
+	<a href="/about">About my site</a>
+	<a href="/blog/hello-world">/blog/hello-world</a>
+	<a href="/blog/jExistePas">/blog/jExistePas</a>
+	<a href="/4sans4">/4sans4</a>
+	<a href="/settings">Settings</a>
+	<a href="/api/random-number">api/random-number</a>
+	<a href="/api/random-number?min=0&max=100">api/random-number?min=0&max=100</a>
+	<a href="/add">add</a>
+	<a href="//api/add">/api/add no no</a>
+
 	<Counter />
 </section>
 
