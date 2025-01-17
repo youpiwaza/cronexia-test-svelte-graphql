@@ -35,6 +35,7 @@
 	<a href="/api/random-number?min=0&max=100">api/random-number?min=0&max=100</a>
 	<a href="/add">add</a>
 	<a href="//api/add">/api/add no no</a>
+	<a href="/charger-donnees">Charger des données</a>
 
 	<Counter />
 </section>

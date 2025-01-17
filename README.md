@@ -20,7 +20,7 @@ bun run dev --open
 
 [yay](https://svelte.dev/docs/kit/load)
 
-MAnque du gras, commencer par
+Manque du gras, commencer par
 
 ---
 
@@ -41,5 +41,24 @@ Fichiers dans /routes avec un + devant = nouvelle route. oké simple enough haha
   - ✅ Receiving data
 - ✅ Fallback method handler
 - ✅ Content negotiation
-- $types
+- ✅ $types
   - ⚡️⚡️⚡️ // * Pas besoin de spécifier le type si les extensions VSCode > Typescript & Svelte sont installées !
+
+---
+
+## Loading datas
+
+[yay](https://svelte.dev/docs/kit/load)
+
+Manque du gras, commencer par
+
+- ✅ Page data
+- ✅ Layout data
+  - si page & layout on des données > elles sont mergées automatiquement dans load
+    - données avec des clés similaires "last one wins" > clé de la page a la prio sur layout
+    - cf. fin de [layout data](https://svelte.dev/docs/kit/load#Layout-data)
+- ✅ Universal vs server
+  - préférer utilisation de serveur si données sensibles
+  - If a route contains both universal and server load functions, **the server load runs first**.
+  - A load function is invoked at runtime, **unless you prerender the page** — in that case, it’s invoked at build time.
+- 🚀 Input
